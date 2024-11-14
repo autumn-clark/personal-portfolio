@@ -1,0 +1,157 @@
+*{
+    font-family: "Inter", serif;
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+main{
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    font-family: "Gochi Hand", cursive;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(0, 82, 189);
+}
+
+li{
+    list-style-type: '- ';
+}
+
+#header-left{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#header-profile{
+    display: inline-block; 
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    border-radius: 20%;
+}
+
+#header-name{
+    padding: 5px;
+}
+
+nav{
+    display: flex;
+    margin-top: 25px;
+}
+nav a{
+    color: black;   
+}
+
+nav a::after{
+    content: " /";
+}
+
+nav a:last-child::after{
+    content: "";
+}
+
+#home-face{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-bottom: 1px solid black;
+}
+
+.home-title{
+    margin-top: 100px;
+    font-family: "Gochi Hand", cursive;
+    font-size: 50px;
+}
+
+.home-subtitle{
+    margin-bottom: 100px;
+}
+
+#home-grid{
+    display: flex;
+    width: 100%;
+}
+
+.home-item{
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 0;
+    margin: 0;
+}
+
+.home-item:last-child {
+    border-right: none; 
+}
+
+.home-item-title{
+    font-family: "Gochi Hand", cursive;
+    font-size: larger;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.home-item-subtitle{
+    font-family: "Gochi Hand", cursive;
+}
+
+.home-item:last-child .home-item-content{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.home-item-li ul{
+}
+
+.home-item-li li{
+    padding:10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: -40px;
+    border-bottom: 1px solid black;
+    list-style-type: none;
+}
+
+.home-item-li li:last-child{
+    border-bottom: none;
+}
+
+.home-item:first-child a{
+    color: black;
+}
+
+.card-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card-1{
+    margin: 20px;
+    padding: 20px;
+    width: 200px;
+    border: 1px solid black;
+    border-radius: 25%;
+}
+
+.card-1-ref{
+    color: gray;
+}
