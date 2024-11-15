@@ -85,6 +85,7 @@ nav a:last-child::after{
 
 .home-subtitle{
     margin-bottom: 100px;
+    color: gray;
 }
 
 #home-grid{
@@ -106,8 +107,7 @@ nav a:last-child::after{
 .home-item-title{
     font-family: "Gochi Hand", cursive;
     font-size: larger;
-    padding-left: 20px;
-    padding-top: 20px;
+    padding: 20px;
 }
 
 .home-item-subtitle{
@@ -154,4 +154,40 @@ nav a:last-child::after{
 
 .card-1-ref{
     color: gray;
+}
+
+
+
+@media (max-width: 768px) {
+    header{
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .home-title{
+        margin-top: 40px;
+        font-family: "Gochi Hand", cursive;
+        font-size: 25px;
+    }
+
+    #home-grid{
+        flex-direction: column;
+    }
+
+    .home-item{
+        background-color: rgb(224, 224, 224);
+    }
+
+    .home-item-title{
+        background-color: white;
+        border-bottom: 1px solid black;
+    }
+
+    .center{
+        text-align: center;
+    }
+    
+    .card-container{
+        align-items: center;
+    }
 }
